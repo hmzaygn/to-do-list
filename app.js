@@ -16,12 +16,6 @@ addBtn.addEventListener("click", (e) => {
       e.preventDefault;
       e.addEventListener("click", () => {
         e.parentElement.classList.toggle("line-through");
-        // if (e.firstElementChild.classList == "fa-solid fa-check text-primary") {
-        //   e.firstElementChild.classList = "fa-solid fa-xmark text-danger";
-        // }
-        // if (e.parentElement.classList == "line-through") {
-        //   e.parentElement.parentElement.removeChild();
-        // }
       });
     });
 
