@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Combo&display=swap');
+
+
+body {
+    /* background-image: linear-gradient(to right, #fa709a 0%, #fee140 100%); */
+    background-image: url(./img/to-do-734587_960_720.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    font-family: 'Combo', cursive;
+}
+
+.input {
+    width: 25rem;
+    height: 2.5rem;
+    color: white;
+    border: 2px solid rgba(61, 56, 56, 0.61);
+    border-radius: 10px;
+    margin-top: 1rem;
+    background-color: rgba(0, 0, 0, 0);
+    box-shadow: 2px 2px 15px 2px black;
+}
+
+.button {
+    width: 6rem;
+    height: 2.5rem;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(238, 148, 12);
+    box-shadow: 2px 2px 15px 2px black;
+    color: white;
+    margin-left: .5rem;
+    margin-top: 1rem;
+    transition: all .5s;
+}
+
+.display-2 {
+    font-weight: 600;
+}
+
+.button:hover {
+    background-color: rgba(160, 93, 39, 0.856);
+    color: white;
+    font-weight: 500;
+}
+
+.button:active {
+    transform: scale(90%);
+}
+
+#list-item {
+    list-style-type: none;
+    display: flex;
+}
+
+#result {
+    font-size: 1.5rem;
+    color: white;
+}
+
+.list-btn {
+    border: none;
+    width: 2rem;
+    margin-right: 1rem;
+    border-radius: 5px;
+    background-color: greenyellow;
+    transition: all .5s;
+}
+
+.list-garbage {
+    border: none;
+    width: 2rem;
+    margin-right: 1rem;
+    border-radius: 5px;
+    background-color: rgba(209, 14, 14, 0.767);
+    transition: all .5s;
+}
+
+.list-btn:hover {
+    background-color: rgba(148, 240, 11, 0.842);
+}
+
+.list-garbage:hover {
+    background-color: rgba(151, 12, 12, 0.767);
+}
+
+.mt-5 li {
+    margin-bottom: .5rem;
+}
+
+.line-through {
+    text-decoration: line-through;
+    color: blue;
+}
+
+#list-item {
+    padding: 5px;
+    border: 2px solid rgba(61, 56, 56, 0.61);
+    border-radius: 10px;
+    margin-top: 1rem;
+    background-color: rgba(0, 0, 0, 0);
+    box-shadow: 2px 2px 15px 2px black;
+}
